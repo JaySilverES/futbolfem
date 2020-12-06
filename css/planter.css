@@ -1,0 +1,13 @@
+main table tbody td {
+    border: 1px solid black;
+}
+
+main table {
+    margin-left: 55.5vh;
+    margin-bottom: 2vh;
+}
+
+main h1 {
+    text-transform: uppercase;
+    text-align: center;
+}

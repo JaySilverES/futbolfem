@@ -1,0 +1,24 @@
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main p {
+    float: left;
+    margin-bottom: 3vh;
+}
+
+main img {
+    position: relative;
+    margin-left: 2.5vh;
+    left: 15vh;
+}
+
+aside {
+    width: 75vh;
+    margin: auto;
+    height: 35vh;
+}
+
+
+

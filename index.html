@@ -7,36 +7,40 @@
     <meta name="author" content="David Delgado">
     <meta name="keywords" content="Primera Iberdrola, Sevilla FC, femenino">
     <meta name="description" content="Practica Primera Iberdrola">
+    <link rel="stylesheet" type="text/css" href="./css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
 </head>
 
 <body>
     <header>
-        <img src="./img/ligaiberdrolaportada.png" alt="Portada Iberdrola">
+        <a href="./index.html"> <img src="./img/ligaiberdrolaportada.png" alt="Portada Iberdrola"> </a>
         <nav>
-            <a href="./web/classif.html">Classificació</a>
-            <a href="./web/resultats.html">Resultats</a>
-            <a href="./web/galeria.html">Galeria Audiovisual</a>
+            <a href="./web/classif.html"><button class="button2">Classificacio</button></a>
+            <a href="./web/resultats.html"><button class="button2">Resultats</button></a>
+            <a href="./web/galeria.html"><button class="button2">Galeria Audiovisual</button></a>
         </nav>
     </header>
     <main>
-        <section>
-            <main>
-                <img src="./img/logosevilla.png" alt="Logo Sevilla" width="150px">
-                <nav>
-                    <a href="./web/infogeneral.html">Informacion General</a>
-                    <a href="./web/planter.html">Planter</a>
-                </nav>
-            </main>
-        </section>
         <aside>
-            <article>
+            <section >
+                <nav id="EscudoSevilla">
+                    <img src="./img/logosevilla.png" alt="Logo Sevilla" width="150px" id="SevillaLogo">
+                    <a href="./web/infogeneral.html"><button class="button3">Informacion General</button></a></a>
+                    <a href="./web/planter.html"><button class="button3">Planter</button></a>
+                </nav>
+            </section>
+
+            <article id="Article1Aside">
                 <h1>Más problemas para el Atleti: Charlyn, con el ligamento tocado</h1>
                 <p>La jugadora mexicana tendrá que pasar por quirófano para reparar el ligamento cruzado anterior de su
                     rodilla izquierda, aunque el parte médico no confirma que haya rotura</p>
             </article>
+            <section id="Enquesta">
+                <h1 id="TituloEnquesta">Ya podeis votar en nuestra encuesta</h1>
+                <a href="./web/validenquesta.html"><button class="button" style="vertical-align:middle"><span>Enquesta</span></button></a> 
+            </section>
         </aside>
-        <h1>Ya podeis votar en nuestra encuesta</h1>
-        <a href="./web/validenquesta.html"><button>Enquesta</button></a>
+
     </main>
     <footer>
         <p>&copy;Iberdrola Copyright 2020</p>

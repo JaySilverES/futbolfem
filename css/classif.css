@@ -1,0 +1,33 @@
+
+main table {
+margin-left: 25vh;
+margin-top: 2vh;
+margin-bottom: 2vh;
+border: 3px solid black;
+}
+
+main table caption {
+    text-transform: uppercase;
+    text-align: center;
+    height: 5vh;
+    padding-top: 2vh;
+    font-size: 2vh;
+    
+}
+
+main table tbody tr td {
+    width: 6vh;
+    height: 5vh;
+    text-align: center;
+    border: 1px solid black;
+}
+
+main table tbody tr td img {
+    width: 3.5vh;
+    text-align: center;
+}
+
+main table thead tr th {
+    width: 15vh;
+    border: 3px solid black;
+}

@@ -7,18 +7,21 @@
     <meta name="author" content="David Delgado">
     <meta name="keywords" content="Primera Iberdrola, Sevilla FC, femenino">
     <meta name="description" content="Practica Primera Iberdrola">
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/validenquesta.css">
 </head>
 
 <body>
     <header>
-        <img src="../img/ligaiberdrolaportada.png" alt="Portada Iberdrola">
+        <a href="../index.html"> <img src="../img/ligaiberdrolaportada.png" alt="Portada Iberdrola"> </a>
         <nav>
-            <a href="./classif.html">Classificació</a>
-            <a href="./resultats.html">Resultats</a>
-            <a href="./galeria.html">Galeria Audiovisual</a>
+            <a href="./classif.html"><button class="button2">Classificacio</button></a>
+            <a href="./resultats.html"><button class="button2">Resultats</button></a>
+            <a href="./galeria.html"><button class="button2">Galeria Audiovisual</button></a>
         </nav>
     </header>
     <main>
+        <h1>Enquesta</h1>
         <form action="./validenquesta.php" method="POST">
             <p>
                 <label for="email"><b>Correo Electronico</b></label>
@@ -33,7 +36,7 @@
                 <input id="Puntuacio" name="Puntuacio" type="number" min="1" max="5" step="1" value="" required>
             </p>
             <p>
-                <label for="vglobal"><b>Valoracio Global</b></label>
+                <label for="vglobal" id="VG1"><b>Valoracio Global</b></label>
                 <select name="profePrefe" required>
                     <option value="Excelent">Excelent</option>
                     <option value="Notable" selected>Notable</option>
@@ -52,8 +55,8 @@
                     maxlength="300">
             </p>
             <p>
-                <button type="reset">Reset</button>
-                <button type="submit">Enviar</button>
+                <button id="reset" type="reset">Reset</button>
+                <button id="submit" type="submit">Enviar</button>
             </p>
         </form>
     </main>

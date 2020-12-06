@@ -1,0 +1,52 @@
+main form {
+    border: 1px solid black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 50vh;
+    margin-left: 78vh;
+}
+
+main h1 {
+    text-transform: uppercase;
+    font-size: 2vh;
+    text-align: center;
+}
+
+main form p{
+    width: 50vh;
+}
+
+main form p label {
+    clear: both;
+    margin-left: 5vh;
+}
+
+main form p input {
+    float: right;
+    width: 20vh;
+    text-align: center;
+    margin-right: 4vh;
+}
+
+main form p select {
+    border: 1px solid red;
+    margin-left: 10vh;
+    width: 20.5vh;
+    text-align: center;
+}
+
+main form p button {
+    text-align: center;
+    margin-left: 2vh;
+}
+
+#reset {
+    border: solid 1px orange;
+    margin-left: 30.5vh;
+    
+}
+
+#submit {
+    border: solid 1px orange;
+    margin-left: 1vh;
+}
