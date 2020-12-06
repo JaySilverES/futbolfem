@@ -6,18 +6,23 @@ main h1 {
 main p {
     float: left;
     margin-bottom: 3vh;
+    
+
 }
 
-main img {
+main aside img {
     position: relative;
     margin-left: 2.5vh;
-    left: 15vh;
+    margin-bottom:
+    border: 1px solid red;
+    
 }
 
 aside {
     width: 75vh;
     margin: auto;
     height: 35vh;
+    
 }
 
 
